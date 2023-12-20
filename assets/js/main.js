@@ -450,3 +450,36 @@ jQuery('.testimonial-slider').slick({
 	dots: true,
 	arrows:true
 });
+
+jQuery('.management-people-carousel').slick({
+	speed: 600,
+    loop: true,
+	slidesToShow:2,
+	slidesToScroll:1,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	dots: false,
+	arrows:false
+});
+
+jQuery('.our-infrastructure-carousel').slick({
+	speed: 600,
+    loop: true,
+	slidesToShow:1,
+	slidesToScroll:1,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	dots: true,
+	arrows:false
+});
+
+jQuery('.our-machinary-carousel').slick({
+	speed: 600,
+    loop: true,
+	slidesToShow:1,
+	slidesToScroll:1,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	dots: true,
+	arrows:false
+});
