@@ -1,4 +1,3 @@
-
 (function() {
   "use strict";
 
@@ -474,6 +473,28 @@ jQuery('.our-infrastructure-carousel').slick({
 });
 
 jQuery('.our-machinary-carousel').slick({
+	speed: 600,
+    loop: true,
+	slidesToShow:1,
+	slidesToScroll:1,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	dots: true,
+	arrows:false
+});
+
+jQuery('.timeline-right-carousel').slick({
+	speed: 600,
+    loop: true,
+	slidesToShow:1,
+	slidesToScroll:1,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	dots: true,
+	arrows:false
+});
+
+jQuery('.timeline-left-carousel').slick({
 	speed: 600,
     loop: true,
 	slidesToShow:1,
