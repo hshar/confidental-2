@@ -300,10 +300,16 @@ p,ul,ol,pre,a{
   visibility: visible;
 }
 .navbar .mega-nemu-dropdown:hover .mega-menu-dropdown-wrapper{
-  opacity: 1;
-  top: 50px;
-  bottom:auto;
-  visibility: visible;
+	opacity: 1;
+	top: 50px;
+	bottom:auto;
+	visibility: visible;
+}
+.navbar .mega-nemu-dropdown.active:hover .mega-menu-dropdown-wrapper{
+	opacity:0;
+}
+.navbar .mega-nemu-dropdown.active a > i{
+	display:none
 }
 .cat-menu-slider{padding:0px 50px}
 .dropdown-category-menu {
@@ -2921,10 +2927,10 @@ p,ul,ol,pre,a{
 .network-type-distributors .network-type-icon{
 	border-color:#5F46FD;
 }
-.network-type-service .network-type-icon:before{
+.network-type-service.select .network-type-icon:before{
 	background-color: #DC0208;
 }
-.network-type-distributors .network-type-icon:before{
+.network-type-distributors.select .network-type-icon:before{
 	background-color: #5F46FD;
 }
 .network-list-item {
