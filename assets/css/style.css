@@ -244,7 +244,7 @@ p,ul,ol,pre,a{
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
+  left:0px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -3520,14 +3520,14 @@ p,ul,ol,pre,a{
     display: -webkit-box;
     display: -ms-box;
     display: -moz-box;
-    -webkit-line-clamp:5;
+    -webkit-line-clamp:8;
 }
 .timeline-item.right {
   float: right;
   clear: right;
 }
 .timeline-item-wrapper>div:nth-child(2) {
-    margin-top: 244px;
+    margin-top: 278px;
 }
 @media screen and (max-width:767px){
 	.timeline-wrap:before{
