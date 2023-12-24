@@ -3265,15 +3265,8 @@ body.logged-in.admin-bar .navbar .mega-nemu-dropdown:hover .mega-menu-dropdown-w
 		flex-wrap:wrap;
 		max-height: 100%;
 	}
-	.job-list-item-detail{
-		flex-wrap:wrap;
-	}
 	.job-detail-wrap {
-		/*display:none*/
-		padding:16px;
-	}
-	.job-content-detail-wrap{
-		padding:0px
+		display:none
 	}
 	.job-list-wrap {
 		display: flex;
@@ -3629,12 +3622,9 @@ body.logged-in.admin-bar .navbar .mega-nemu-dropdown:hover .mega-menu-dropdown-w
 	.timeline-item{
 		margin-left: 27px !important;
 		width: calc(100% - 27px);
-		float: none;
-		clear:none
 	}
 	.timeline-item.right {
 		float: none;
-		clear:none
 	}
 	.timeline-item.left:before {
 		right:auto;
